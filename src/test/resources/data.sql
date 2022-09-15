@@ -1,0 +1,10 @@
+truncate table ACCOUNT;
+
+insert into ACCOUNT(ACCOUNT_NUMBER, CURRENCY, BALANCE, STATUS)
+values ('test-1', 978, 0.00, 'OPEN');
+insert into ACCOUNT(ACCOUNT_NUMBER, CURRENCY, BALANCE, STATUS)
+values ('test-2', 840, 1002.00, 'OPEN');
+insert into ACCOUNT(ACCOUNT_NUMBER, CURRENCY, BALANCE, STATUS)
+values ('test-3', 978, 345.00, 'OPEN');
+insert into ACCOUNT(ACCOUNT_NUMBER, CURRENCY, BALANCE, STATUS)
+values ('test-4', 978, 0.00, 'CLOSED');
